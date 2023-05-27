@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+}
+.header{
+  margin-top: 30px;
+display: flex;
+justify-content: space-between;
+}
+.form-select{
+  width:150px;
+  border: 2px solid black;
+}
+.left{
+  width:70vw;
+  margin-left: 30px;
+}
+.right{
+  width:26.5vw;
+}
+.card{
+  width:15rem;
+  background-color: rgb(245, 245,250);
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+}
+.app{
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.right .card{
+  width:90%;
+  margin:auto;
+  margin-top: 30px;
+}
+td{
+  padding-left: 20px;
+}
+.right .card-body{
+  height:50vh;
+  overflow-y: auto;
+}
+.new{
+  margin:auto;
+ margin-bottom: 20px;
+
+}
+.table tr:nth-of-type(odd){
+  background-color: #dbd8e7;
+}
